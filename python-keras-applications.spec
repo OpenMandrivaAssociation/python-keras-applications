@@ -1,10 +1,12 @@
-%define module keras-applications
+%global module keras-applications
+%global mod %(m=%{module}; echo ${m:0:1})
 
 Summary:	Applications module of the Keras deep learning library
 Name:		python-%{module}
 Version:	1.0.8
 Release:	1
 Source0:	https://github.com/keras-team/%{module}/archive/refs/tags/%{version}/%{module}-%{version}.tar.gz
+#Source0:	https://pypi.io/packages/source/%{mod}/%{module}/%{module}-%{version}.tar.gz
 License:	Expat
 Group:		Development/Python
 Url:		https://keras.io/
