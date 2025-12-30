@@ -4,7 +4,7 @@
 Summary:	Applications module of the Keras deep learning library
 Name:		python-%{module}
 Version:	1.0.8
-Release:	3
+Release:	4
 Source0:	https://github.com/keras-team/%{module}/archive/refs/tags/%{version}/%{module}-%{version}.tar.gz
 #Source0:	https://pypi.io/packages/source/%{mod}/%{module}/%{module}-%{version}.tar.gz
 License:	Expat
